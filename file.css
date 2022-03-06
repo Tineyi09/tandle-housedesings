@@ -1,16 +1,13 @@
-*html{
+*{
     margin:0;
     padding:0;
-    box-sizing:boader-box;
+    box-sizing:border-box;
 }
 
 html{
     font-size:62.5%;
 }
 
-html,body{
-    height:100%;
-}
 body{
     background:white;
 }
@@ -100,7 +97,7 @@ label,input{
 }
 .CONTACTPRO{
     font-size: 2rem;
-    font-family: cursive;
+    font-family: 'calibri',courier new;
     text-align: justify;
     font-weight: bold;
     color:purple;
@@ -167,7 +164,7 @@ button{
 }
 
 .PAINTING-IMAGE{
-    flex-basis: 230%;
+    flex-basis: 100%;
 }
 
 .paintcontainer{
@@ -315,7 +312,7 @@ button{
 
 .about-profile{
     font-size: 2.4rem;
-    font-family: cursive;
+    font-family: 'calibri',courier new;
     text-align: justify;
     font-weight: bold;
     color: purple;
